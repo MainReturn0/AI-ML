@@ -92,10 +92,3 @@ Typical dependencies used:
    - `Credit_Wise_Loan/credit_wise.ipynb`
 2. Ensure `loan_approval_data.csv` is in the same folder as the notebook.
 3. Run cells top-to-bottom to reproduce preprocessing, plots, and model evaluation.
-
-## Notes / Next Improvements (Optional Ideas)
-
-- Fix the `Applicant_ID` drop so it persists (`df = df.drop(...)`)
-- Avoid one-hot encoding the target together with features; keep `y` separate before encoding features
-- Add cross-validation and hyperparameter tuning (e.g., for kNN)
-- Consider handling outliers explicitly (the notebook discusses outliers but doesn’t apply a removal method)
